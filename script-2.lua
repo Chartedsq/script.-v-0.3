@@ -201,8 +201,8 @@ local tpBackButton = createButton("Vissza TP", tpPanel)
 -- Visszaállítás ikon
 local restoreIcon = Instance.new("TextButton")
 restoreIcon.Size = UDim2.new(0, 55, 0, 55)
-restoreIcon.AnchorPoint = Vector2.new(0, 0)
-restoreIcon.Position = UDim2.new(0, 10, 0, 10)
+restoreIcon.AnchorPoint = Vector2.new(1, 0)
+restoreIcon.Position = UDim2.new(1, -600, 0, 300)
 restoreIcon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 restoreIcon.TextColor3 = Color3.fromRGB(200, 0, 0)
 restoreIcon.Font = Enum.Font.SourceSansBold
